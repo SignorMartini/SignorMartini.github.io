@@ -1,0 +1,68 @@
+.col-4 {
+    display: block; float: left; width: 2;
+}
+body {
+    background-image: url(sea.jpg);
+    background-size: contain;
+    margin: 0%;
+    font-family: sans-serif;
+}
+h1 {
+    color: rgb(23, 230, 230)
+}
+h3 {
+    color: rgb(24, 233, 233)
+}
+nav {
+    background-color: blue;
+    color: yellow;
+    width: 100%  ; 
+}
+nav ul li {
+float:left;
+}
+article.col-4 img {
+    width: 50%;
+    height: 50%;
+    max-width: 80%;
+    max-height: 80%;
+    padding-top: 7%;
+}
+/*gallery*/
+section.gallery {
+    margin-left: 120px;
+}
+.col-4 {
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 12px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+/*Biography CSS starts*/
+section.biography article p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*Footer*/
+footer p {
+    text-align: center;
+    background-color: crimson;
+    color: darkgrey;
+    box-shadow: 10px 10px darkseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
